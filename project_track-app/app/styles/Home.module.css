@@ -1,0 +1,71 @@
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Assure que le conteneur occupe toute la hauteur */
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0A192F, #1A202C);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #64FFDA; /* Couleur du texte */
+  }
+
+.navbar-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main-banner {
+  background: linear-gradient(135deg, #16423C, #6A9C89);
+  flex: 1; /* Permet à la bannière d'occuper tout l'espace disponible */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: calc(100vh - 60px); /* 100vh - hauteur de la barre de navigation */
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.banner-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f5f5f5;
+  margin-top: 10px;
+}
+
+/* Media queries pour la responsivité */
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 1.8rem;
+  }
+
+  .banner-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .banner-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style pour la section inférieure */
