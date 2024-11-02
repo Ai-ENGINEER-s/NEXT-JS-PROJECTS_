@@ -5,7 +5,7 @@ import {options} from '../api/auth/[...nextauth]/options'
 
 
 
-const Nav = async () =>  {
+const   Nav = async () =>  {
     const session = await getServerSession(options); 
     return (
         <header className="bg-gray-800 shadow-md">
@@ -56,7 +56,7 @@ const Nav = async () =>  {
                             </button>
                         </Link>
                     )}
-                </div>
+                </div> 
             </nav>
         </header>
     );
