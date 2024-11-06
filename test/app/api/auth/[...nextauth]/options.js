@@ -27,6 +27,7 @@ const Options = {
     GoogleProvider({
       profile(profile) {
         console.log("Profile Google : ", profile);
+        let userRole = "Github User";
 
         return {
           ...profile,
