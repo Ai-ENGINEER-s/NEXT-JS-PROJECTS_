@@ -25,9 +25,10 @@ const Options = {
     }),
 
     GoogleProvider({
-      profile(profile) {
+      profile(profile) 
+      {
         console.log("Profile Google : ", profile);
-        let userRole = "Github User";
+        let userRole = "Google user";
 
         return {
           ...profile,
@@ -36,7 +37,7 @@ const Options = {
         };
       },
       clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_SECRET_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
   callbacks: {
