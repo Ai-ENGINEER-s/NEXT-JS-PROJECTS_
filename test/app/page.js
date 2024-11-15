@@ -15,6 +15,7 @@ export default function Home() {
 <h1>BARRY </h1>
 </main>
 
+
 <Footer/>
 
 
