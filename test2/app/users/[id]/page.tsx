@@ -1,27 +1,16 @@
 import React from 'react'
-import Link from 'next/link'
+
+const DetaiPage = ({params}:{params :{id:string}} )=> {
+    const {userId }= params ; 
 
 
-const Users = () => {
   return (
-<>
-<h1>Dashboard Users</h1>
-
-<ul className='mt-10'>
-    <Link href={"/users/1"}>
-    <li>Users 1</li>
-    </Link>
-    <Link href={"/users/2"}>
-    <li>Users 2</li>
-    </Link>
-    <Link href={"/users/3"}>
-    <li>Users 3</li>
-    </Link>
-
-</ul>
-
-</>
+ <>
+     <h1>User ID: {userId} </h1>
+     <p>Bienvenue sur la page de l'utilisateur {userId}.</p>
+ </>
   )
 }
 
-export default Users
+export default DetaiPage
+
