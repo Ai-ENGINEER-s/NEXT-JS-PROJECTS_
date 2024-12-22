@@ -5,3 +5,5 @@ function greetUser(user) {
 const user = { name: "Alice" };
 
 greetUser(user);
+
+const variableOne = 8569;
