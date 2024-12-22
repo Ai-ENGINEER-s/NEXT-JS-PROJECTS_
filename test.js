@@ -1,11 +1,7 @@
-function greetUser(user){
-
-    console.log(`Hello , ${user.name}`)
-
-
-
+function greetUser(user) {
+  console.log(`Hello , ${user.name}`);
 }
 
-const user = {name : 'Alice'}
+const user = { name: "Alice" };
 
-greetUser(user)
+greetUser(user);
