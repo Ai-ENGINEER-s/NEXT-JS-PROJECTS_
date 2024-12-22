@@ -25,3 +25,18 @@ Ensure you have the following installed:
    ```bash
    git clone <repository-url>
    cd <project-directory>
+
+
+Fork the repository.
+Create a new feature branch: git checkout -b feature-name.
+Commit your changes: git commit -m "Add feature description".
+Push the branch: git push origin feature-name.
+Open a Pull Request.
+License
+This project is licensed under the MIT License.
+
+Contact
+For any questions or feedback, please contact:
+
+Name: Barry Sanoussa
+Email: barrysanoussa19@gmail.com
